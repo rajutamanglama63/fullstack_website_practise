@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    {{>navbar}}
+
+    {{!-- banner part --}}
+    <div class="banner_part">
+        <div class="container">
+            <div class="main_contant_of_banner">
+                <div class="discription_part">
+                    <h1><span class="text-weight">We will help you to</span><span class="text-color"> expand your
+                            business.</span></h1>
+                    <p class="p-text">We are the team of professional developer✨</p>
+                    <button class="btn">Read More</button>
+                </div>
+
+                <div class="illustration_part">
+                    <figure>
+                        <img src="images/taxi-robot.png" alt="robot" width="100%" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{!-- about us --}}
+
+    {{>about}}
+
+    {{!-- services --}}
+
+    {{>services}}
+
+    {{!-- maps --}}
+
+    {{>map}}
+
+    {{!-- contact --}}
+
+    {{>contact}}
+
+</body>
+
+</html>

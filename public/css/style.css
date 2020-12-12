@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Playfair Display, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* layout */
+
+.nav {
+  background-color: #ff9900;
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+li {
+  padding: 0.5rem 0 0.5rem 0.8rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.6s ease;
+}
+a:hover {
+  color: oldlace;
+}
+.banner_part {
+  /* border: 2px solid pink; */
+}
+.main_contant_of_banner {
+  /* border: 1px solid blueviolet; */
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.discription_part {
+  /* border: 2px dotted navy; */
+  padding: 5rem 0;
+  flex-basis: 47%;
+}
+.illustration_part {
+  /* border: 1px dotted green; */
+  flex-basis: 47%;
+}
+.btn {
+  background-color: rgb(252, 187, 9);
+  color: #000;
+  border: none;
+  padding: 0.5rem;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: rgb(255, 220, 154);
+  color: gray;
+}
+.illustration_part_of_about {
+  /* border: 1px dotted green; */
+  flex-basis: 48%;
+  padding-top: 2.5rem;
+}
+.discription_part_of_about {
+  /* border: 2px dotted navy; */
+  padding: 5rem 0;
+  flex-basis: 48%;
+}
+.card {
+  flex-basis: 30%;
+  text-align: center;
+  padding: 1rem 0;
+  color: #707070;
+  background-color: whitesmoke;
+  box-shadow: 2px 3px rgb(199, 197, 197);
+  /* border: 1px dotted green; */
+}
+.icon {
+  color: #000;
+}
+.map {
+  margin: 5rem 0;
+}
+.main_contant_of_contact {
+  margin: 2rem 0;
+}
+.form {
+  margin: 0 auto;
+  width: 50%;
+}
+.input-field {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+/* typography */
+
+.logo {
+  font-size: x-large;
+  padding: 0.5px 0 0 0;
+  color: navy;
+}
+.tech {
+  color: #660033;
+}
+.text-weight {
+  font-weight: 100;
+}
+.text-color {
+  color: rgb(92, 92, 2);
+}
+.p-text {
+  padding: 1rem 0;
+  color: #707070;
+}
+.about_heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+.bold {
+  font-weight: bolder;
+}
+h4 {
+  color: #000;
+  padding: 0.5rem 0;
+}
